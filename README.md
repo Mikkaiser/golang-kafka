@@ -9,4 +9,4 @@ Run `docker compose up -d` to setup all containers:
 
 Type `docker compose exec goapp bash` to enter in Go container.
 
-go to `/cmd/producer` to and run `go run main.go` to run the producer, and the same into `/cmd/consumer` to run the consumer and log the producer's messages.
+go to `/cmd/producer` and run `go run main.go` to run the producer, and the same into `/cmd/consumer` to run the consumer and log the producer's messages.
